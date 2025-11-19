@@ -1,0 +1,14 @@
+.box {
+  margin: 0px 15px 0px;
+}
+.grid {
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+}
+
+.grid .item {
+  font-size: 20px;
+}
+
+.grid .item span {
+  font-size: 14px;
+}
