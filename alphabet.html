@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="字母表 - 采用周育如老师的发音参考，使用KK音标发音法的交互式英文字母学习工具。支持离线使用。" />
+    <meta name="keywords" content="字母表, KK音标, 英文字母发音, 字母学习, 交互式工具" />
+    <meta name="theme-color" content="#49d391" />
+    <meta name="author" content="George" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="字母表 - 交互式语音字母工具" />
+    <meta property="og:description" content="采用周育如老师的发音参考，使用KK音标发音法的交互式英文字母学习工具。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/alphabet.html" />
+    <meta property="og:image" content="https://example.com/assets/img/screenshot-512.png" />
+
+    <link rel="canonical" href="https://example.com/alphabet.html" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./Manifest.json" />
+    <link rel="stylesheet" href="./css/alphabet.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/media768.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/alphabet768.css" />
+    <link rel="stylesheet" media="(hover: hover)" href="./css/hover.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/common768.css" />
+    <script type="module" src="./js/alphabet.js"></script>
+    <script type="module" src="./js/common.js"></script>
+    <title>字母表 - 交互式语音字母工具</title>
+  </head>
+  <body>
+    <!-- 顶部导航栏 -->
+    <div id="navbar"></div>
+    <!-- 字母内容区 -->
+    <div class="box">
+      <div class="main-content">
+        <!-- #region元音 -->
+        <!-- <div class="content">
+          <div class="sort"></div>
+          <div class="grid">
+            <div class="item" data-id="sound_i">
+              A<span>/eɪ/</span>
+              <div class="play like playing"></div>
+            </div>
+            <div class="item" data-id="sound_short_i">
+              ɪ<span>tip</span>
+              <div class="play"></div>
+            </div>
+            <div class="item" data-id="sound_e">
+              e<span>met</span>
+              <div class="play"></div>
+            </div>
+            <div class="item" data-id="sound_æ">
+              æ<span>pan</span>
+              <div class="play"></div>
+            </div>
+          </div>
+        </div> -->
+        <!-- #endregion元音 -->
+      </div>
+
+      <!-- 说明区 -->
+
+      <div class="about-content">
+        <!-- <h1>关于IPA表 和 字母表</h1> -->
+
+        <h2>要点总结:</h2>
+        <p>1.&nbsp;<strong>a&nbsp;e&nbsp;i&nbsp;o&nbsp;u</strong>&nbsp;元音字母,发母音(共17个音),其他字母发子音,子音绝大多数情况发音不变</p>
+        <p>
+          2.&nbsp;一个单词里有&nbsp;2&nbsp;个元音字母的情况下,第一个元音字母发重音节,然后第二个元音字母绝大多数发&nbsp;<strong>/ə/</strong>&nbsp;音
+        </p>
+
+        <p>
+          3.&nbsp;在一个单词中有&nbsp;2&nbsp;个元音字母,且结尾字母是元音字母&nbsp;<strong>e</strong>&nbsp;,那么这个&nbsp;<strong>e</strong>&nbsp;
+          不发音,第一个元音字母发自身的音
+        </p>
+        <p>
+          4.&nbsp;<strong>ar</strong>/<strong>er</strong>/<strong>ir</strong>/<strong>or</strong>/<strong>ur</strong>,在单词中第一次出现通常发&nbsp;<strong>/3:/</strong>&nbsp;音，在结尾出现发&nbsp;<strong>/ə/</strong>&nbsp;音
+        </p>
+        <p>
+          5.&nbsp;单词里两个<strong>o</strong>相连，大概率发<strong>/ʊ/</strong>,如
+          <strong>book</strong>&nbsp;&nbsp;/<strong>bʊk</strong>/,小概率发<strong>/u:/</strong>，如<strong>room</strong>:&nbsp;&nbsp;<strong
+            >/rum/</strong
+          >
+        </p>
+        <p>
+          6.&nbsp;<strong>au</strong>/<strong>ou</strong>/<strong>aw</strong>/<strong>ow</strong>常常发音为<strong>/aʊ/</strong>,如
+          <strong>now</strong>:
+          <strong>/naʊ/</strong>
+        </p>
+        <p>
+          相关视频学习资料,请点击<a
+            target="_blank"
+            href="https://search.bilibili.com/all?keyword=%E5%91%A8%E8%82%B2%E5%A6%82%E9%9F%B3%E6%A0%87%E8%AF%BE"
+            >周育如音标课</a
+          >
+        </p>
+        <button class="btn">循环播放</button>
+      </div>
+    </div>
+  </body>
+</html>

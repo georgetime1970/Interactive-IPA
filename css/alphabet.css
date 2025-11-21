@@ -85,7 +85,7 @@
   margin-top: 5px;
   font-size: 25px;
   font-weight: normal;
-  color: #475569;
+  color: #49d391;
 }
 
 .grid .item .playing::after {
@@ -127,4 +127,61 @@
   color: #475569;
   top: 15px;
   left: 15px;
+}
+
+.box .about-content {
+  box-shadow: 0 0 5px #eee;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  position: relative;
+}
+.box .about-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #49d391;
+  margin: 10px 0;
+  text-align: center;
+}
+.box .about-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #49d391;
+  margin: 10px 0;
+}
+.box .about-content p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.box .about-content .btn {
+  width: 80px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: 0;
+  background-color: #49d391;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+/* .box .about-content .btn:active {
+  transform: scale(1.1);
+} */
+
+.box .about-content .btn.active {
+  display: inline-block;
+  animation: playing 0.6s infinite;
+}
+
+@keyframes playing {
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }

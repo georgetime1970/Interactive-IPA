@@ -1,0 +1,37 @@
+{
+  "name": "IPA表 KK音标 - 交互式语音字母工具",
+  "short_name": "音标网",
+  "description": "一个纯享极简版的国际音标(IPA)和KK音标交互式学习工具，支持离线使用",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#49d391",
+  "categories": ["education", "productivity"],
+  "screenshots": [
+    {
+      "src": "/assets/img/screenshot-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/screenshot-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/img/will.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/will-maskable.ico",
+      "sizes": "192x192",
+      "type": "image/x-icon",
+      "purpose": "maskable"
+    }
+  ]
+}

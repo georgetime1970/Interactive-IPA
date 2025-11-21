@@ -1,0 +1,29 @@
+# robots.txt - 搜索引擎优化配置
+
+# 允许所有搜索引擎抓取
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+# 禁止抓取的路径
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /cache/
+
+# 指定网站地图
+Sitemap: https://example.com/sitemap.xml
+
+# 爬虫行为指引
+Crawl-delay: 0
+
+# 特定搜索引擎配置
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /

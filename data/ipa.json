@@ -1,0 +1,85 @@
+{
+  "元音": {
+    "前元音": [
+      { "ipa": "i:", "word": "bean", "src": "sound_i", "like": "E——" },
+      { "ipa": "ɪ", "word": "tip", "src": "sound_short_i", "like": "yi" },
+      { "ipa": "e", "word": "met", "src": "sound_e", "like": "诶" },
+      { "ipa": "æ", "word": "pan", "src": "sound_æ", "like": "诶啊" }
+    ],
+    "中元音": [
+      { "ipa": "ɜ:", "word": "sir", "src": "sound_long_ə", "like": "呃——" },
+      { "ipa": "ə", "word": "the", "src": "sound_ə", "like": "呃" },
+      { "ipa": "ʌ", "word": "fun", "src": "sound_ʌ", "like": "啊" }
+    ],
+    "后元音": [
+      { "ipa": "u:", "word": "moon", "src": "sound_long_u", "like": "唔——" },
+      { "ipa": "ʊ", "word": "shook", "src": "sound_u", "like": "唔" },
+      { "ipa": "ɔ:", "word": "shore", "src": "sound_long_ɔ", "like": "喔——" },
+      { "ipa": "ɒ", "word": "lock", "src": "sound_ɒ", "like": "奥" },
+      { "ipa": "ɑ:", "word": "card", "src": "sound_long_ɑ", "like": "啊——" }
+    ],
+
+    "开合双元音": [
+      { "ipa": "eɪ", "word": "same", "src": "sound_eɪ", "like": "A——" },
+      { "ipa": "aɪ", "word": "hide", "src": "sound_aɪ", "like": "I——" },
+      { "ipa": "ɔɪ", "word": "choice", "src": "sound_ɔɪ", "like": "喔A" },
+      { "ipa": "aʊ", "word": "loud", "src": "sound_aʊ", "like": "啊奥" },
+      { "ipa": "əʊ", "word": "go", "src": "sound_əʊ", "like": "O" }
+    ],
+    "集中双元音": [
+      { "ipa": "ɪə", "word": "dear", "src": "sound_ɪə", "like": "yi呃" },
+      { "ipa": "eə", "word": "hair", "src": "sound_long_e", "like": "诶呃" },
+      { "ipa": "ʊə", "word": "curios", "src": "sound_ʊə", "like": "唔呃" }
+    ]
+  },
+  "辅音": {
+    "清辅音-爆破音": [
+      { "ipa": "p", "word": "pick", "src": "sound_p", "like": "" },
+      { "ipa": "t", "word": "team", "src": "sound_t", "like": "" },
+      { "ipa": "k", "word": "code", "src": "sound_k", "like": "" }
+    ],
+    "浊辅音-爆破音": [
+      { "ipa": "b", "word": "bed", "src": "sound_b", "like": "" },
+      { "ipa": "d", "word": "dine", "src": "sound_d", "like": "" },
+      { "ipa": "g", "word": "get", "src": "sound_g", "like": "" }
+    ],
+
+    "清辅音-摩擦音": [
+      { "ipa": "f", "word": "first", "src": "sound_f", "like": "夫" },
+      { "ipa": "s", "word": "saw", "src": "sound_s", "like": "s" },
+      { "ipa": "ʃ", "word": "she", "src": "sound_ʃ", "like": "sh" },
+      { "ipa": "θ", "word": "thick", "src": "sound_θ", "like": "si伸舌" },
+      { "ipa": "h", "word": "hard", "src": "sound_h", "like": "喝" }
+    ],
+    "浊辅音-摩擦音": [
+      { "ipa": "v", "word": "van", "src": "sound_v", "like": "f加震动" },
+      { "ipa": "z", "word": "zen", "src": "sound_z", "like": "" },
+      { "ipa": "ʒ", "word": "casual", "src": "sound_ʒ", "like": "日" },
+      { "ipa": "ð", "word": "these", "src": "sound_ð", "like": "zi伸舌" },
+      { "ipa": "r", "word": "rug", "src": "sound_r", "like": "弱/耳" }
+    ],
+
+    "清辅音-破擦音": [
+      { "ipa": "tʃ", "word": "choose", "src": "sound_ʧ", "like": "ch" },
+      { "ipa": "tr", "word": "tree", "src": "sound_tr", "like": "戳" },
+      { "ipa": "ts", "word": "cats", "src": "sound_ts", "like": "次" }
+    ],
+
+    "浊辅音-破擦音": [
+      { "ipa": "dʒ", "word": "jet", "src": "sound_ʤ", "like": "锯" },
+      { "ipa": "dr", "word": "dream", "src": "sound_dr", "like": "浊" },
+      { "ipa": "dz", "word": "friends", "src": "sound_dz", "like": "子" }
+    ],
+
+    "浊辅音-鼻音": [
+      { "ipa": "m", "word": "mode", "src": "sound_m", "like": "m妈" },
+      { "ipa": "n", "word": "neck", "src": "sound_n", "like": "n拿" },
+      { "ipa": "ŋ", "word": "song", "src": "sound_ŋ", "like": "昂" }
+    ],
+    "浊辅音-舌侧音": [{ "ipa": "l", "word": "look", "src": "sound_l", "like": "勒/哦" }],
+    "浊辅音-半元音": [
+      { "ipa": "j", "word": "yet", "src": "sound_j", "like": "叶" },
+      { "ipa": "w", "word": "whatch", "src": "sound_w", "like": "窝儿" }
+    ]
+  }
+}

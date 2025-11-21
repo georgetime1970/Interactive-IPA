@@ -1,0 +1,43 @@
+/* 电脑顶部导航栏 */
+.nav {
+  width: 100%;
+  height: 65px;
+  background-color: #fff;
+  box-shadow: 0 0 3px #ccc;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.nav .pc {
+  height: 65px;
+  margin: 0px 20% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 隐藏手机端 */
+.nav .mobile {
+  display: none;
+}
+
+.nav .logo {
+  width: 35px;
+  height: 35px;
+  background-image: url('/assets/img/will.ico');
+  background-size: 35px 35px;
+}
+
+.nav a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.nav a:hover {
+  background-color: #49d39122;
+}
