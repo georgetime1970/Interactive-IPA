@@ -1,5 +1,6 @@
 .box {
-  margin: 0px 15px 0px;
+  /* width: 100%; */
+  margin: 80px 5% 0px;
 }
 .grid {
   grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
@@ -11,4 +12,44 @@
 
 .grid .item span {
   font-size: 14px;
+}
+
+/* 播放动画 */
+.grid .item .playing::after {
+  top: 5px;
+  right: 8px;
+  width: 2px;
+  background: #49d391;
+  border-radius: 2px;
+  box-shadow: -4px 0 0 #49d391, -8px 0 0 #49d391;
+  animation: soundBars 1.2s ease-in-out infinite;
+}
+
+@keyframes soundBars {
+  0%,
+  100% {
+    height: 2px;
+    transform: translateY(8px);
+  }
+  25% {
+    height: 8px;
+    transform: translateY(0);
+  }
+  50% {
+    height: 5px;
+    transform: translateY(4px);
+  }
+  75% {
+    height: 8px;
+    transform: translateY(-4px);
+  }
+}
+
+.grid .item .like::before {
+  content: var(--like-text, '额');
+  position: absolute;
+  font-size: 10px;
+  top: 5px;
+  left: 8px;
+  color: #475569;
 }

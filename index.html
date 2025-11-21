@@ -3,47 +3,76 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="IPA表 - 一个纯享极简版的国际音标(IPA)和KK音标交互式学习工具，支持离线使用，无需安装，直接点击音标即可听其发音。"
+    />
+    <meta name="keywords" content="IPA音标, KK音标, 英语发音, 音标学习, 交互式工具, 离线工具" />
+    <meta name="theme-color" content="#49d391" />
+    <meta name="color-scheme" content="light" />
+    <meta name="author" content="George" />
+
+    <!-- Open Graph Meta Tags for Social Sharing -->
+    <meta property="og:title" content="IPA表 - 交互式语音字母工具" />
+    <meta property="og:description" content="一个纯享极简版的国际音标(IPA)和KK音标交互式学习工具，支持离线使用。" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com/index.html" />
+    <meta property="og:image" content="https://example.com/assets/img/screenshot-512.png" />
+    <meta property="og:site_name" content="音标网" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IPA表 - 交互式语音字母工具" />
+    <meta name="twitter:description" content="一个纯享极简版的国际音标(IPA)和KK音标交互式学习工具，支持离线使用。" />
+    <meta name="twitter:image" content="https://example.com/assets/img/screenshot-512.png" />
+
+    <link rel="canonical" href="https://example.com/index.html" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="./Manifest.json" />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" media="(max-width: 768px)" href="./css/media768.css" />
+    <link rel="stylesheet" media="(hover: hover)" href="./css/hover.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" media="(max-width: 768px)" href="./css/common768.css" />
     <script type="module" src="./js/index.js"></script>
-    <title>Grid布局</title>
+    <script type="module" src="./js/common.js"></script>
+    <title>IPA表 - 交互式语音字母工具</title>
   </head>
   <body>
+    <!-- 顶部导航栏 -->
+    <div id="navbar"></div>
+    <!-- 主体内容区 -->
     <div class="box">
-      <h1>交互式IPA表</h1>
-      <header>
+      <!-- <header>
         <ul>
-          <li>单元音</li>
-          <li>双元音</li>
+          <li class="active">元音</li>
+          <li>辅音</li>
         </ul>
-      </header>
-      <div class="content">
-        <div class="sort">前元音</div>
-        <div class="grid">
-          <div class="item">i:<span>bean</span></div>
-          <div class="item" data-id="sound_short_i">ɪ<span>tip</span></div>
-          <div class="item">e<span>bean</span></div>
-          <div class="item">æ<span>bean</span></div>
-        </div>
-      </div>
-      <div class="content">
-        <div class="sort">中元音</div>
-        <div class="grid">
-          <div class="item">ɜ:<span>bean</span></div>
-          <div class="item">ə<span>bean</span></div>
-          <div class="item">ʌ<span>bean</span></div>
-          <div class="item">æ<span>bean</span></div>
-        </div>
-      </div>
-      <div class="content">
-        <div class="sort">后元音</div>
-        <div class="grid">
-          <div class="item">u:<span>bean</span></div>
-          <div class="item">ʊ<span>bean</span></div>
-          <div class="item">ɔ:<span>bean</span></div>
-          <div class="item">ɒ<span>bean</span></div>
-          <div class="item">ɑ:<span>bean</span></div>
-        </div>
+      </header> -->
+      <div class="main-content">
+        <!-- #region元音 -->
+        <!-- <div class="content">
+          <div class="sort">前元音</div>
+          <div class="grid">
+            <div class="item" data-id="sound_i">
+              i:<span>bean</span>
+              <div class="play like playing"></div>
+            </div>
+            <div class="item" data-id="sound_short_i">
+              ɪ<span>tip</span>
+              <div class="play"></div>
+            </div>
+            <div class="item" data-id="sound_e">
+              e<span>met</span>
+              <div class="play"></div>
+            </div>
+            <div class="item" data-id="sound_æ">
+              æ<span>pan</span>
+              <div class="play"></div>
+            </div>
+          </div>
+        </div> -->
+        <!-- #endregion元音 -->
       </div>
     </div>
   </body>

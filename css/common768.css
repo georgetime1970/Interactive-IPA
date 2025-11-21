@@ -1,0 +1,78 @@
+/* 移动端下拉导航栏 */
+
+/* 隐藏电脑,显示手机 */
+.nav .pc {
+  display: none;
+}
+.nav .mobile {
+  display: block;
+}
+
+.nav .mobile .content {
+  height: 65px;
+  margin: 0px 5% 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav .mobile .menu-btn {
+  width: 35px;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.nav .mobile .menu-btn::after {
+  content: '☰';
+  display: inline-block;
+  transition: inherit;
+}
+.nav .mobile .menu-btn.active::after {
+  content: '✕';
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  transition: inherit;
+  transform: scale(0.9) rotate(180deg);
+}
+
+.nav .mobile .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 缓动下拉栏 */
+.nav .mobile .downBar {
+  max-height: 0; /* 初始高度为 0 */
+  overflow: hidden; /* 超出部分隐藏 */
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 0 3px #ccc;
+  /* padding: 0 0; 高度由 max-height 控制
+  margin: 0 0; */
+  transition: 0.3s;
+  opacity: 00.8;
+}
+
+.nav .mobile .downBar.active {
+  padding: 10px 0;
+  max-height: 200px; /* 设置一个大于实际内容的值 */
+  opacity: 1;
+}
+
+.nav .mobile a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  /* margin: 5px; */
+  padding: 10px 15px;
+}
+
+.nav .mobile a:active {
+  background-color: #eee;
+}

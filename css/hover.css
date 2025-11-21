@@ -1,0 +1,9 @@
+.grid .item:hover {
+  outline: 1px solid #49d391;
+  background-color: #49d39022;
+  /* box-shadow: 0 0px 2px rgba(0, 0, 0, 0.5); */
+}
+
+.box .about-content .btn:hover {
+  transform: scale(1.1);
+}
