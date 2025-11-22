@@ -1,6 +1,6 @@
 {
   "name": "IPA表 KK音标 - 交互式语音字母工具",
-  "short_name": "音标网",
+  "short_name": "音标工具网",
   "description": "一个纯享极简版的国际音标(IPA)和KK音标交互式学习工具，支持离线使用",
   "start_url": "/index.html",
   "scope": "/",
