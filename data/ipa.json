@@ -23,7 +23,7 @@
       { "ipa": "eɪ", "word": "same", "src": "sound_eɪ", "like": "A——" },
       { "ipa": "aɪ", "word": "hide", "src": "sound_aɪ", "like": "I——" },
       { "ipa": "ɔɪ", "word": "choice", "src": "sound_ɔɪ", "like": "喔A" },
-      { "ipa": "aʊ", "word": "loud", "src": "sound_aʊ", "like": "啊奥" },
+      { "ipa": "aʊ", "word": "loud", "src": "sound_aʊ", "like": "啊唔" },
       { "ipa": "əʊ", "word": "go", "src": "sound_əʊ", "like": "O" }
     ],
     "集中双元音": [
@@ -67,7 +67,7 @@
 
     "浊辅音-破擦音": [
       { "ipa": "dʒ", "word": "jet", "src": "sound_ʤ", "like": "锯" },
-      { "ipa": "dr", "word": "dream", "src": "sound_dr", "like": "浊" },
+      { "ipa": "dr", "word": "dream", "src": "sound_dr", "like": "啄" },
       { "ipa": "dz", "word": "friends", "src": "sound_dz", "like": "子" }
     ],
 

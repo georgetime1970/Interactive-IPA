@@ -15,7 +15,7 @@
 .box ul {
   list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, minmax(10px, 100px));
+  grid-template-columns: repeat(auto-fill, minmax(10px, 1fr));
 }
 
 .box ul li {
