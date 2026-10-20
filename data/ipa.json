@@ -3,7 +3,7 @@
     "前元音": [
       { "ipa": "i:", "word": "bean", "src": "sound_i", "like": "E——" },
       { "ipa": "ɪ", "word": "tip", "src": "sound_short_i", "like": "yi" },
-      { "ipa": "e", "word": "met", "src": "sound_e", "like": "诶" },
+      { "ipa": "e / ɛ", "word": "met", "src": "sound_e", "like": "诶" },
       { "ipa": "æ", "word": "pan", "src": "sound_æ", "like": "诶啊" }
     ],
     "中元音": [
@@ -13,18 +13,18 @@
     ],
     "后元音": [
       { "ipa": "u:", "word": "moon", "src": "sound_long_u", "like": "唔——" },
-      { "ipa": "ʊ", "word": "shook", "src": "sound_u", "like": "唔" },
+      { "ipa": "ʊ / ᴜ", "word": "shook", "src": "sound_u", "like": "唔呃" },
       { "ipa": "ɔ:", "word": "shore", "src": "sound_long_ɔ", "like": "喔——" },
-      { "ipa": "ɒ", "word": "lock", "src": "sound_ɒ", "like": "奥" },
+      { "ipa": "ɒ / ɔ", "word": "lock", "src": "sound_ɒ", "like": "喔" },
       { "ipa": "ɑ:", "word": "card", "src": "sound_long_ɑ", "like": "啊——" }
     ],
 
     "开合双元音": [
       { "ipa": "eɪ", "word": "same", "src": "sound_eɪ", "like": "A——" },
-      { "ipa": "aɪ", "word": "hide", "src": "sound_aɪ", "like": "I——" },
+      { "ipa": "aɪ", "word": "hide", "src": "sound_aɪ", "like": "爱——" },
       { "ipa": "ɔɪ", "word": "choice", "src": "sound_ɔɪ", "like": "喔A" },
       { "ipa": "aʊ", "word": "loud", "src": "sound_aʊ", "like": "啊唔" },
-      { "ipa": "əʊ", "word": "go", "src": "sound_əʊ", "like": "O" }
+      { "ipa": "əʊ / o", "word": "go", "src": "sound_əʊ", "like": "O" }
     ],
     "集中双元音": [
       { "ipa": "ɪə", "word": "dear", "src": "sound_ɪə", "like": "yi呃" },
@@ -48,14 +48,14 @@
       { "ipa": "f", "word": "first", "src": "sound_f", "like": "夫" },
       { "ipa": "s", "word": "saw", "src": "sound_s", "like": "s" },
       { "ipa": "ʃ", "word": "she", "src": "sound_ʃ", "like": "sh" },
-      { "ipa": "θ", "word": "thick", "src": "sound_θ", "like": "si伸舌" },
+      { "ipa": "θ", "word": "thick", "src": "sound_θ", "like": "si(伸舌)" },
       { "ipa": "h", "word": "hard", "src": "sound_h", "like": "喝" }
     ],
     "浊辅音-摩擦音": [
-      { "ipa": "v", "word": "van", "src": "sound_v", "like": "f加震动" },
+      { "ipa": "v", "word": "van", "src": "sound_v", "like": "唔(震动)" },
       { "ipa": "z", "word": "zen", "src": "sound_z", "like": "" },
       { "ipa": "ʒ", "word": "casual", "src": "sound_ʒ", "like": "日" },
-      { "ipa": "ð", "word": "these", "src": "sound_ð", "like": "zi伸舌" },
+      { "ipa": "ð", "word": "these", "src": "sound_ð", "like": "zi(伸舌)" },
       { "ipa": "r", "word": "rug", "src": "sound_r", "like": "弱/耳" }
     ],
 
@@ -79,7 +79,7 @@
     "浊辅音-舌侧音": [{ "ipa": "l", "word": "look", "src": "sound_l", "like": "勒/哦" }],
     "浊辅音-半元音": [
       { "ipa": "j", "word": "yet", "src": "sound_j", "like": "叶" },
-      { "ipa": "w", "word": "whatch", "src": "sound_w", "like": "窝儿" }
+      { "ipa": "w", "word": "watch", "src": "sound_w", "like": "挖儿" }
     ]
   }
 }
